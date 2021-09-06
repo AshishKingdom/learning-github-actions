@@ -9,6 +9,6 @@ jobs:
       - run: python auto-generate.py
       - run: cat test.md
       - name: check files
-        run: ls
+        run: ls -a
       - name: test 1
         run: .\.ci\test.sh
