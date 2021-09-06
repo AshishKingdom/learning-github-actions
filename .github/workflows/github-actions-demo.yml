@@ -11,4 +11,4 @@ jobs:
       - name: check files
         run: ls -a
       - name: test 1
-        run: bash .\.ci\test.sh
+        run: bash ./.ci/test.sh
