@@ -8,3 +8,5 @@ jobs:
         uses: actions/checkout@v2
       - run: python auto-generate.py
       - run: cat test.md
+      - name: test 1
+        run: .\.ci\test.sh
